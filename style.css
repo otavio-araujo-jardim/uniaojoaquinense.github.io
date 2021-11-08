@@ -1,0 +1,144 @@
+
+body{
+background:linear-gradient(rgb(184, 11, 11),rgb(177, 2, 2),rgb(0, 0, 0));
+background-size: 100%;
+background-attachment: fixed;
+}
+
+#arvore{
+font-family: 'Montserrat', sans-serif;
+}
+
+#logo img{
+width: 175px;
+height: auto;
+}
+
+#logo{
+padding-top: 30px;
+padding-bottom: 50px;
+color: white;
+}
+
+.botao{
+width: 55%;
+height: 70px;
+background-color: #42506b;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border: none;
+transition: 0.1s;
+}
+
+.botao:hover{
+width: 50%;
+transition: 0.3s;
+cursor: pointer;
+color: #e0dcdb;
+}
+
+
+.botao_st{
+width: 55%;
+height: 70px;
+background-color: #53db6c;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border: none;
+transition: 0.1s;
+}
+
+.botao_st:hover{
+width: 50%;
+transition: 0.3s;
+cursor: pointer;
+color: #e0dcdb;
+}
+
+
+.botao_st2{
+width: 55%;
+height: 70px;
+background-color: #db6553;
+color: white;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border: none;
+transition: 0.1s;
+}
+
+.botao_st2:hover{
+width: 50%;
+transition: 0.3s;
+cursor: pointer;
+color: #e0dcdb;
+}
+
+
+.botao_main{
+width: 55%;
+height: 70px;
+background-color: white;
+color: #203e77;
+font-family: 'Montserrat', sans-serif;
+font-size: 20px;
+border: none;
+transition: 0.1s;
+}
+
+.botao_main:hover{
+width: 50%;
+transition: 0.3s;
+cursor: pointer;
+color: #5d87b2;
+}
+
+@media only screen and (max-width:1125px){
+body{
+background-size: 350%;
+background-attachment: fixed;
+}
+
+.botao{
+background:linear-gradient(#B8860B,#B8860B,gold);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px 50px;
+    margin-top:10px;
+border-radius: 10px;
+ filter: drop-shadow(1px 1px 3px rgba(255,255,255,0.5));
+}
+
+
+ /* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background:linear-gradient(#B8860B,rgb(211, 155, 13),rgb(235, 199, 0));
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border-radius: 5px;
+  filter: drop-shadow(1px 1px 3px rgba(255,255,255,0.5));
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgb(216, 202, 8);
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding:10px 18px;
+  background-color: rgb(255, 242, 67);
+  display: none;
+  overflow: hidden;
+  border: none;
+  border-radius: 5px;
+} 
