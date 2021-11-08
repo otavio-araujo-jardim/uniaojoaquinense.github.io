@@ -1,6 +1,7 @@
 
 body{
-background:linear-gradient(rgb(184, 11, 11),rgb(177, 2, 2),rgb(0, 0, 0));
+background:linear-gradient(rgb(0, 0, 0),rgb(107, 1, 1),
+rgb(155, 2, 2),rgb(161, 10, 10));
 background-size: 100%;
 background-attachment: fixed;
 }
@@ -142,5 +143,4 @@ border-radius: 10px;
 
 .tambut{
   width: 50%;
-    text-align: center;
 }
