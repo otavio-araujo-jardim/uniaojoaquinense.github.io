@@ -95,11 +95,6 @@ cursor: pointer;
 color: #5d87b2;
 }
 
-@media only screen and (max-width:1125px){
-body{
-background-size: 350%;
-background-attachment: fixed;
-}
 
 .botao{
 background:linear-gradient(#B8860B,#B8860B,gold);
