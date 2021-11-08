@@ -113,7 +113,7 @@ border-radius: 10px;
   background:linear-gradient(#B8860B,rgb(211, 155, 13),rgb(235, 199, 0));
   color: white;
   cursor: pointer;
-  padding: 5% 5%;
+  padding: 5% 5% 5% 5%;
   width: 100%;
   text-align: center;
   border: none;
@@ -121,6 +121,8 @@ border-radius: 10px;
   transition: 0.4s;
   border-radius: 5px;
   filter: drop-shadow(1px 1px 3px rgba(255,255,255,0.5));
+  display: flex;
+  flex-direction: column;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -137,3 +139,7 @@ border-radius: 10px;
   border: none;
   border-radius: 5px;
 } 
+
+.tambut{
+  width: 50%;
+}
