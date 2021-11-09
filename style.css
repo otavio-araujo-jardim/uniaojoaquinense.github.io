@@ -1,7 +1,7 @@
 
 body{
-background:linear-gradient(rgb(0, 0, 0),rgb(73, 1, 1),
-rgb(138, 0, 0),rgb(161, 10, 10));
+background:linear-gradient(rgb(255, 255, 255),rgb(248, 154, 154),
+rgb(255, 141, 141),rgb(253, 79, 79));
 background-size: 100%;
 background-attachment: fixed;
 }
