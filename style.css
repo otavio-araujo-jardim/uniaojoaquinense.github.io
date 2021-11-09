@@ -124,6 +124,7 @@ border-radius: 10px;
   filter: drop-shadow(1px 1px 3px rgba(255,255,255,0.5));
   display: flex;
   flex-direction: column;
+   align-items: center;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
