@@ -1,9 +1,10 @@
 
 body{
-background:linear-gradient(rgb(255, 255, 255),rgb(248, 154, 154),
-rgb(255, 141, 141),rgb(253, 79, 79));
-background-size: 100%;
+background-image: url('imgs/2.png');
+background-size: 100% ;
+background-repeat: no-repeat;
 background-attachment: fixed;
+background-position-y: 50%;
 }
 
 #arvore{
