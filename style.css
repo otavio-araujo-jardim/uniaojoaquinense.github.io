@@ -1,7 +1,7 @@
 
 body{
-background:linear-gradient(rgb(0, 0, 0),rgb(107, 1, 1),
-rgb(155, 2, 2),rgb(161, 10, 10));
+background:linear-gradient(rgb(0, 0, 0),rgb(73, 1, 1),
+rgb(138, 0, 0),rgb(161, 10, 10));
 background-size: 100%;
 background-attachment: fixed;
 }
@@ -124,7 +124,7 @@ border-radius: 10px;
   filter: drop-shadow(1px 1px 3px rgba(255,255,255,0.5));
   display: flex;
   flex-direction: column;
-   align-items: center;
+  align-items: center;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -144,4 +144,19 @@ border-radius: 10px;
 
 .tambut{
   width: 65%;
+}
+
+a:link, a:visited {
+  background-color: rgb(255, 234, 113);
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(219, 180, 5);
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: green;
+  color: white;
 }
