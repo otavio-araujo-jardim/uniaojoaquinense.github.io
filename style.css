@@ -169,7 +169,7 @@ linksgerais:hover, linksgerais:active {
 }
 
 
-body {margin:0;height:2000px;}
+body {margin:0;height:100%;}
 
 .icon-bar {
   position: fixed;
