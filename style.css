@@ -244,5 +244,6 @@ h2{
   font: 'Helvetica','Arial',sans-serif;
   font-size: larger;
   border: red;
+  background-color: red;
   padding: 5px;
 }
