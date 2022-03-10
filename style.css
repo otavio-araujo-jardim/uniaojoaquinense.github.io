@@ -220,7 +220,7 @@ body {margin:0;height:120%;}
 }
 
 .quadro{
-position: absolute;
+position: relative;
 background: #FDFEB8;
 border: 4px solid #999303;
 box-sizing: border-box;
@@ -237,4 +237,12 @@ margin-bottom: 5px;
 
 #textbox{
   margin-bottom: -5px;
+}
+
+h2{
+  color: white;
+  font: 'Helvetica','Arial',sans-serif;
+  font-size: larger;
+  border: red;
+  padding: 5px;
 }
