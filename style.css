@@ -1,6 +1,6 @@
 
 body{
-background:linear-gradient(rgba(146, 0, 0, 0.541),rgba(158, 15, 15, 0.575),rgba(94, 0, 0, 0.685));
+background:linear-gradient(rgb(146, 0, 0),rgb(158, 15, 15),rgba(94, 0, 0, 0.836));
 background-size: 100%;
 background-attachment: fixed;
 
