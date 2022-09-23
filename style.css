@@ -52,7 +52,7 @@ table {
 }
 
 body{
-background:linear-gradient(#D10D00, #950900, #580500,#000000,#000000,#000000);
+background:linear-gradient(#D10D00, #000000);
 background-size: 100%;
 background-attachment: fixed;
 justify-content: center;
