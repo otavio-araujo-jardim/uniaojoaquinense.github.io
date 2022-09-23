@@ -53,7 +53,6 @@ table {
 
 body{
 background:linear-gradient(#D10D00, #000000);
-background-size: 100%;
 justify-content: center;
 align-items: center;
 }
@@ -235,7 +234,7 @@ border-radius: 10px;
 }
 
 
-body {margin:0;height:120%;}
+body {margin:0;}
 
 .icon-bar {
   position: fixed;
